@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'AgroLect.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'AUTHENTICATION',
+        'NAME': 'agrolect',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': 'ilmfvm555'
+        'PASSWORD': 'Ilmfvm555'
     }
 }
 
