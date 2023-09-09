@@ -34,7 +34,7 @@ def home(request):
             cursor.execute("select Distinct country from home_map where Regionname= '"+continent+"'")
             li=[i[0] for i in list(cursor.fetchall())]
             G=1
-            print(G)
+            print(li)
             return render(request,"home.html",{'li':li})
         
         if 'countries' in request.POST:
